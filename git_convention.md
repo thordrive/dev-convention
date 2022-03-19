@@ -1,0 +1,1 @@
+#This is a bare document for the git convention guide.
