@@ -1,1 +1,3 @@
-#This is a bare document for the git convention guide.
+## Branch naming convention
+- Use slash and hyphen as separators (e.g. feature/add-documentation)
+- Avoid long descriptive names
