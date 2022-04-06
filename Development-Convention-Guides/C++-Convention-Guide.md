@@ -32,7 +32,7 @@
   >}
   >```
 
-- Do not omit braces unless one-line statement is used.
+- Do not omit braces unless in case of a one-line statement.
 
   >**BAD**👎
   >
