@@ -51,8 +51,20 @@
   >**BETTER**👍
   >
   >```c++
-  >for (int i = 0; i < count; i++){
+  >for (int i = 0; i < count; i++) {
   >    if (i % 2) sum += value;
   >    else sum -= value;
+  >}
+  >```
+  >
+  >**BEST**👍👍👍
+  >
+  >```c++
+  >for (int i = 0; i < count; i++) {
+  >    if (i % 2) {
+  >        sum += value;
+  >    } else {
+  >        sum -= value;
+  >    }
   >}
   >```
