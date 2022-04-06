@@ -9,18 +9,12 @@
 
 - Do not use nested tenaries.
 
-  >**BAD**👎
-  >
-  ><strike>
-  >
+  >**Bad**👎
   >```c++
   >bool operator<(const Point3D& rhs) const { return x < rhs.x ? true : (x == rhs.x ? (y < rhs.y ? true : (y == rhs.y ? z < rhs.z : false)) : false); }
   >```
-  >
-  ></strike>
-  >
-  >**BETTER**👍
-  >
+
+  >**Good**👍
   >```c++
   >bool operator<(const Point3D& rhs) const {
   >    if (x < rhs.x) return true;
@@ -34,10 +28,7 @@
 
 - Do not omit braces unless in case of a one-line statement.
 
-  >**BAD**👎
-  >
-  ><strike>
-  >
+  >**Bad**👎
   >```c++
   >for (int i = 1; i <= num; i++)
   >    if (i % 2)
@@ -45,20 +36,16 @@
   >    else
   >        sum_even += i;
   >```
-  >
-  ></strike>
-  >
-  >**BETTER**👍
-  >
+
+  >**Good**👍
   >```c++
   >for (int i = 1; i <= num; i++) {
   >    if (i % 2) sum_odd += i;
   >    else sum_even += i;
   >}
   >```
-  >
-  >**BEST**👏
-  >
+
+  >**Better**👏
   >```c++
   >for (int i = 1; i <= num; i++) {
   >    if (i % 2) {
