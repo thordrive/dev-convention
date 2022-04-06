@@ -41,9 +41,9 @@
   >```c++
   >for (int i = 1; i <= num; i++)
   >    if (i % 2)
-  >        sum_odd += value;
+  >        sum_odd += i;
   >    else
-  >        sum_even += value;
+  >        sum_even += i;
   >```
   >
   ></strike>
@@ -52,8 +52,8 @@
   >
   >```c++
   >for (int i = 1; i <= num; i++) {
-  >    if (i % 2) sum_odd += value;
-  >    else sum_even += value;
+  >    if (i % 2) sum_odd += i;
+  >    else sum_even += i;
   >}
   >```
   >
@@ -62,9 +62,9 @@
   >```c++
   >for (int i = 1; i <= num; i++) {
   >    if (i % 2) {
-  >        sum_odd += value;
+  >        sum_odd += i;
   >    } else {
-  >        sum_even += value;
+  >        sum_even += i;
   >    }
   >}
   >```
