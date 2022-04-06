@@ -23,11 +23,11 @@
   >
   >```c++
   >bool operator<(const Point3D& rhs) const {
-  >    if (x > rhs.x) return true;
-  >    if (x < rhs.x) return false;
-  >    if (y > rhs.y) return true;
-  >    if (y < rhs.y) return false;
-  >    if (z > rhs.z) return true;
+  >    if (x < rhs.x) return true;
+  >    if (x > rhs.x) return false;
+  >    if (y < rhs.y) return true;
+  >    if (y > rhs.y) return false;
+  >    if (z < rhs.z) return true;
   >    return false;
   >}
   >```
