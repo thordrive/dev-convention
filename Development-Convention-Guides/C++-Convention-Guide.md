@@ -1,5 +1,8 @@
 [[_TOC_]]
 
+## General
+- Use `#pragma once`, other than `#ifndef` include guards.
+
 ## Conditional Statements
 - Use ternary operators when code can be concise without compromising readability.
 
