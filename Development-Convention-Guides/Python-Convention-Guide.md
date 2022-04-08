@@ -15,6 +15,6 @@
   >import sys
   >from module import (
   >    func1,
-  >    func2
+  >    func2,
   >)
   >```
