@@ -3,6 +3,9 @@
 ## General
 - Use `#pragma once`, other than `#ifndef` include guards.
 
+## Constants
+- Use `std::numbers::pi` instead of `M_PI`.
+
 ## Conditional Statements
 - Use ternary operators when code can be concise without compromising readability.
 
