@@ -3,7 +3,8 @@
 ## Representing Orientations
 - Quaternion is the preferred method of representing orientations.
 - Use Euler angle representation if and only if there is need for user interaction and visualization, such as parameter input/output and plotting of results
-- When the source data(e.g. angular velocity measurement) is given as Euler angles, always convert them to Quaternions before performing numerical operations.
+- When the source data(e.g. angular velocity measurement) is given as Euler angles, converting them to Quaternions before performing numerical operations is recommended.
+- However, if there is a need for rotating several points, the rotation matrix representation is much more efficient(https://eigen.tuxfamily.org/dox/classEigen_1_1QuaternionBase.html#aabef1f6fc62535f6f85d590108915ee8) so it is application-dependent.
 
 ## Coordinate Systems for Translation and Euler angles
 - Standard right-hand coordinate(https://en.wikipedia.org/wiki/Right-hand_rule) must be used.
