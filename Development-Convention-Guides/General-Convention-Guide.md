@@ -20,3 +20,5 @@
   >csv_reader.py
   >csv_reader.sh
   >```
+
+- Use `.yaml` as an extension for YAML files.
