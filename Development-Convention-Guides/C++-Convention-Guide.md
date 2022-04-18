@@ -23,16 +23,16 @@
   >**Good**👍
   >```c++
   >bool operator<(const Point3D& rhs) const {
-  >    if (x < rhs.x) return true;
-  >    if (x > rhs.x) return false;
-  >    if (y < rhs.y) return true;
-  >    if (y > rhs.y) return false;
-  >    if (z < rhs.z) return true;
+  >    if (x < rhs.x) { return true; }
+  >    if (x > rhs.x) { return false; }
+  >    if (y < rhs.y) { return true; }
+  >    if (y > rhs.y) { return false; }
+  >    if (z < rhs.z) { return true; }
   >    return false;
   >}
   >```
 
-- Do not omit braces unless in case of a one-line statement.
+- Do not omit braces.
 
   >**Bad**👎
   >```c++
@@ -43,15 +43,7 @@
   >        sum_even += i;
   >```
 
-  >**Good**👍
-  >```c++
-  >for (int i = 1; i <= num; i++) {
-  >    if (i % 2) sum_odd += i;
-  >    else sum_even += i;
-  >}
-  >```
-
-  >**Better**👏
+  >**Good**👏
   >```c++
   >for (int i = 1; i <= num; i++) {
   >    if (i % 2) {
