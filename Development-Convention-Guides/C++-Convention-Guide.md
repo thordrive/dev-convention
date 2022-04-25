@@ -3,8 +3,9 @@
 ## General
 - Use `#pragma once`, other than `#ifndef` include guards.
 
-## Constants
+## C++ Standard
 - Use `std::numbers::pi` instead of `M_PI`.
+- Use `std::chrono::steady_clock` or `std::chrono::system_clock` instead of `std::chrono::high_resolution_clock`.
 
 ## Conditional Statements
 - Use ternary operators when code can be concise without compromising readability.
