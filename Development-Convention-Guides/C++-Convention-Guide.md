@@ -59,5 +59,5 @@
 
 - Use snake_case for variable names.
 - Use camelCase for method names.
-- Use PascalCase for structure/class names.
+- Use PascalCase for structure/class names and type aliases.
 - Use an underscore (`_`) as a suffix for member variable names of a class.
