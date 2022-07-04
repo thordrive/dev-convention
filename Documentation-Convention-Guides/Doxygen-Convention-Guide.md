@@ -18,7 +18,7 @@
 
 - First letter of each statement must be `capitalized`.
 
-  >**Bad**👍
+  >**Bad**👎
   >```diff
 	> * @brief adds up the given numbers.
 	>int sum(const std::vector<int>& numbers);
@@ -32,7 +32,7 @@
 
 - Statements must be ended with `.`
 
-  >**Bad**👍
+  >**Bad**👎
   >```diff
 	> * @brief Adds up the given numbers
 	>int sum(const std::vector<int>& numbers);
