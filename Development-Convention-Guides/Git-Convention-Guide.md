@@ -14,7 +14,11 @@
   >https://thordrive@dev.azure.com/thordrive/revolt/_git/dev-convetion
   >```
 
-  >**Good**👍
+  >**Good**👝
   >```cmd
   >https://dev.azure.com/thordrive/revolt/_git/dev-convetion
   >```
+
+## Large file storage
+- Make sure install Git LFS on your system before cloning repositories.
+- Track binary files or large output text files (e.g. Jupyter Notebook files - *.ipynb) with Git LFS.
