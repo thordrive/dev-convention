@@ -1,8 +1,9 @@
 ## Repository name
-- Use hyphen as separators (e.g. mac-base)
+- Use lower kebab case; lowercase letters with hyphen as delimiters (e.g. mac-base)
+
 
 ## Branch name
-- Use slash and hyphen as separators (e.g. feature/add-documentation)
+- Use slash and hyphen as delimiters (e.g. feature/add-documentation)
 - Avoid long descriptive names
 
 ## Git submodule URL
