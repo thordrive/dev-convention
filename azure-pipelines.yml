@@ -1,0 +1,24 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    echo Mirroring start
+    git remote add upstream https://github.com/thordrive/dev-convention.git
+    git config pull.rebase true
+    git config --global user.email "chchoi@thordrive.ai"
+    git config --global user.name "ThorAdmin"
+    echo *Pull
+    git pull upstream HEAD --allow-unrelated-histories
+    echo *Push
+    git push https://$(GH_TOKEN)@github.com/thordrive/dev-convention.git HEAD:master
+
+  displayName: 'Run a multi-line script'
