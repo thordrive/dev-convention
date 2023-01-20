@@ -102,6 +102,7 @@ ReflowComments: false
 FixNamespaceComments: true
 ForEachMacros: []
 IncludeBlocks: Preserve
+InsertTrailingCommas: Wrapped
 SortIncludes: true
 SortUsingDeclarations: false
 
