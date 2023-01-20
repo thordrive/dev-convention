@@ -96,7 +96,7 @@ UseCRLF: false
 DeriveLineEnding: false
 DerivePointerAlignment: false
 KeepEmptyLinesAtTheStartOfBlocks: false
-MaxEmptyLinesToKeep: 1
+MaxEmptyLinesToKeep: 2
 NamespaceIndentation: None
 PointerAlignment: Left
 ReflowComments: false
