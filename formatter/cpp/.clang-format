@@ -11,6 +11,7 @@ ContinuationIndentWidth: 4
 AccessModifierOffset: -1
 
 AlignAfterOpenBracket: AlwaysBreak
+AlignArrayOfStructures: Right
 AlignConsecutiveAssignments: false
 AlignConsecutiveDeclarations: false
 AlignConsecutiveMacros: false
