@@ -8,7 +8,7 @@ UseTab: ForIndentation
 ConstructorInitializerIndentWidth: 4
 ContinuationIndentWidth: 4
 
-AccessModifierOffset: -1
+AccessModifierOffset: -2
 
 AlignAfterOpenBracket: AlwaysBreak
 AlignArrayOfStructures: Right
