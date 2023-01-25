@@ -15,7 +15,7 @@
   >https://thordrive@dev.azure.com/thordrive/revolt/_git/dev-convetion
   >```
 
-  >**Good**👝
+  >**Good**👍
   >```cmd
   >https://dev.azure.com/thordrive/revolt/_git/dev-convetion
   >```
