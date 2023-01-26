@@ -1,20 +1,24 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Convention Documents and Development Guides
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This repository contains convention documents and development guides for various programming languages. The goal of this repository is to provide developers with a centralized location for best practices and guidelines for writing clean, maintainable code.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Contents
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- `/Development-Convention-Guides`: This folder contains the convention document and development guide specific to the `Type-Convention-Guide.md` type.
+- `/formatter`: This folder contains formatter configuration files for various programming languages, these files can be used to format your code according to the conventions provided in the repository.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Contributing
+
+We welcome contributions from the community to improve and add to the convention documents and development guides in this repository. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Make your changes in a new branch.
+3. Submit a pull request for review.
+
+## Usage
+
+To use the convention documents and development guides in this repository, simply navigate to the appropriate document for the programming language you are using, follow the guidelines provided and use the formatter configuration files in the `/formatter` folder to format your code accordingly.
+
+## License
+
+This repository is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for more information.
