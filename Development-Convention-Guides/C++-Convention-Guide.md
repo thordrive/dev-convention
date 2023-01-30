@@ -1,5 +1,34 @@
 [[_TOC_]]
 
+## Project Layout
+<!-- prettier-ignore-start -->
+    .
+    ├── app(s)                <- Applications
+    │   ├── simple_host
+    │   │   └── ...
+    ├── config(s)             <- Configuration files
+    │   └── default.yaml
+    ├── doc(s)                <- Project documents
+    │   ├── usage.md
+    │   └── ...
+    ├── example(s)            <- Example codes
+    │   └── client.cpp
+    ├── external(s)           <- External dependencies
+    │   └── ...
+    ├── include               <- Headers
+    │   └── ...
+    ├── script(s)             <- Script files
+    │   ├── deploy.sh
+    │   └── ...
+    ├── src                   <- Sources
+    │   └── ...
+    ├── test(s)               <- Test codes
+    │   └── ...
+    ├── LICENSE               <- License file
+    ├── README.md             <- Project overview
+    └── CMakeLists.txt        <- Project file
+<!-- prettier-ignore-end -->
+
 ## General
 - Use `#pragma once`, other than `#ifndef` include guards.
 
